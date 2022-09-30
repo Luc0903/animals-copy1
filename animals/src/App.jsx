@@ -13,10 +13,7 @@ function App() {
   return (
     <>
       <Title>Hello, World!</Title>
-      <ButtonComponent
-        value='Home'
-        Icon={<IoHome />}
-      />
+      <ButtonComponent value='Home' Icon={<IoHome />} />
     </>
   );
 }

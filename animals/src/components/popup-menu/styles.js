@@ -11,7 +11,7 @@ export const PopUpMenuContainer = styled.div`
   color: #eef2e6;
 `;
 
-export const LinkStyles = styled.span`
+export const LinkStyles = styled.p`
   display: flex;
   justify-content: center;
   align-items: center;
