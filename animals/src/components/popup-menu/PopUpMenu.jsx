@@ -1,14 +1,20 @@
-import { PopUpMenuContainer, LinkStyles } from './styles.js';
-import { IoLogOutSharp, IoPawOutline } from 'react-icons/io5';
+import { PopUpMenuContainer, LinkStyles, IconMenuAlignment } from './styles.js';
+import { IoLogOutSharp, IoPaw } from 'react-icons/io5';
 
 export const PopupMenu = () => {
   return (
     <PopUpMenuContainer>
       <LinkStyles>
-        Logout <IoLogOutSharp />
+        Logout
+        <IconMenuAlignment>
+          <IoLogOutSharp />
+        </IconMenuAlignment>
       </LinkStyles>
       <LinkStyles>
-        Mis animales <IoPawOutline />
+        Mis animales
+        <IconMenuAlignment>
+          <IoPaw />
+        </IconMenuAlignment>
       </LinkStyles>
     </PopUpMenuContainer>
   );
